@@ -38,3 +38,4 @@ class Evento:
     def __le__(self, other): return self.data_hora <= other.data_hora
     def __gt__(self, other): return self.data_hora > other.data_hora
     def __ge__(self, other): return self.data_hora >= other.data_hora
+
